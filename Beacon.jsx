@@ -1,7 +1,7 @@
-// Task component - represents a single beacon
+// Attendant component - represents a single beacon
 Beacon = React.createClass({
     propTypes: {
-        // This component gets the task to display through a React prop.
+        // This component gets the attendant to display through a React prop.
         // We can use propTypes to indicate it is required
         beacon: React.PropTypes.object.isRequired
     },
